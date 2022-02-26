@@ -5,105 +5,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio Cyril Aguirre</title>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="./img/CYRIL AGUIRRE CV (1) (5).png" download>
+            <a href="./assets/img/CYRIL AGUIRRE CV.png" download>
+                <li>
                     CV
-                </a>
-            </li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+                </li>
+            </a>
+            <a href="#skills">
+                <li>Skills
+                </li>
+            </a>
+            <a href="#portfolio">
+                <li>Portfolio</li>
+            </a>
+            <a href="#contact">
+                <li>Contact</li>
+            </a>
         </ul>
     </nav>
     <section class="containerIdentity">
-        <div>
+        <div class="presentation">
             <H1>Cyril Aguirre</H1>
             <h2>Développeur</h2>
             <h2>Front-end</h2>
         </div>
         <div class="photo-container">
-            <img src="./img/moi.jpg" alt="ma photo">
+            <img src="./assets/img/moi.jpg" alt="ma photo">
 
         </div>
     </section>
     <section id="skills">
         <div class="formation">
-            <h3>Diplômes & Formations</h3>
-            <h4>Développeur Web - <a href="https://campusdulac.com" target="blank">Campus du Lac</a></h4>
+            <h2>Diplômes & Formations</h2>
+            <h3>Développeur Web - <a href="https://campusdulac.com" target="blank">Campus du Lac</a></h3>
             <p>Titre développeur Web et Web Mobile</p>
             <p>Diplôme de niveau 5</p>
 
         </div>
         <div class="techno">
-            <h6>HTML</h6>
-            <div class="experience">Since 11/2021</div>
-            <h6>CSS</h6>
-            <div class="experience">Since 12/2021</div>
-            <h6>SASS</h6>
-            <div class="experience">Since 12/2021</div>
-            <h6>JAVASCRIPT</h6>
-            <div class="experience">Since 01/2022</div>
-            <h6>BOOTSTRAP</h6>
-            <div class="experience">Since 01/2022</div>
+            <h4>HTML</h4>
+            <div class="experience">
+                <p class="progress">On progress</p>
+                <p class="duration">Since 11/2021</p>
+            </div>
+            <h4>CSS</h4>
+            <div class="experience">
+                <p class="progress">On progress</p>
+                <p class="duration">
+                    Since 12/2021
+                </p>
+            </div>
+            <h4>SASS</h4>
+            <div class="experience">
+                <p class="progress">On progress</p>
+                <p class="duration">
+                    Since 12/2021
+                </p>
+            </div>
+            <h4>JAVASCRIPT</h4>
+            <div class="experience">
+                <p class="progress">On progress</p>
+                <p class="duration">
+                    Since 01/2022
+                </p>
+            </div>
+            <h4>BOOTSTRAP</h4>
+            <div class="experience">
+                <p class="progress">On progress</p>
+                <p class="duration">
+                    Since 01/2022
+                </p>
+            </div>
 
         </div>
     </section>
-    <section id="Portfolio">
+    <section id="portfolio">
+        <h2>Portfolio</h2>
         <div class="containerCards">
             <div class="card">
-                <div class="cardImg"><img src="./img/gaming_campus.png" alt="Image première intégration Gaming Campus">
+                <div class="cardImg"><img src="./assets/img/gaming_campus.png"
+                        alt="Image première intégration Gaming Campus">
                 </div>
                 <div class="cardText">
-                    <p>Une de mes premières intégrations sur le site Gaming Campus , en début de formation.</p>
+                    <p>Ma première intégration sur le site Gaming Campus , en début de formation.</p>
                 </div>
-                <a href="https://cyrilaguirre.github.io/gaming-campus/" target="blank">
-                    <button class="linkSrc">
-                        Code source
-                    </button>
-                </a>
+                <button class="linkSrc">
+                    <a href="https://cyrilaguirre.github.io/gaming-campus/" target="blank">
+                        Voir le résultat
+                    </a>
+                </button>
             </div>
             <div class="card">
                 <div class="cardImg">
-                    <img src="./img/run.png" alt="Image intégration Run">
+                    <img src="./assets/img/run.png" alt="Image intégration Run">
                 </div>
                 <div class="cardText">
-                    <p>Intégration sur le thème "Run"</p>
+                    <p>Intégration sur le thème "Run", en début de formation</p>
                 </div>
-                <a href="https://cyrilaguirre.github.io/Run/" target="blank">
-                    <button>Code source</button>
-                </a>
+                <button>
+                    <a href="https://cyrilaguirre.github.io/Run/" target="blank">
+                        Voir le résultat
+
+                    </a>
+                </button>
             </div>
             <div class="card">
                 <div class="cardImg">
-                    <img src="./img/montagne.png" alt="Image intégration sur la Montagne">
+                    <img src="./assets/img/montagne.png" alt="Image intégration sur la Montagne">
                 </div>
                 <div class="cardText">
                     <p>Intégration sur le thème de la "Montagne" après un mois de formation</p>
                 </div>
-                <a href="https://cyrilaguirre.github.io/La-Montagne/">
-                    <button>Code source</button>
-                </a>
+                <button>
+                    <a href="https://cyrilaguirre.github.io/La-Montagne/" target="blank">
+                        Voir le résultat
+                    </a>
+                </button>
             </div>
             <div class="card">
                 <div class="cardImg">
-                    <img src="./img/resto.png" alt="Image intégration sur le thème Resto">
+                    <img src="./assets/img/resto.png" alt="Image intégration sur le thème Resto">
                 </div>
-            </div>
-            <div class=" cardText">
-                <p>Intégration sur le thème "Resto" après un mois de formation</p>
-            </div>
-            <a href="https://cyrilaguirre.github.io/Resto/">
+                <div class=" cardText">
+                    <p>Intégration sur le thème "Resto" après un mois de formation</p>
+                </div>
                 <button>
-                    Code source
+                    <a href="https://cyrilaguirre.github.io/Resto/" target="blank">
+                        Voir le résultat
+                    </a>
                 </button>
-            </a>
+            </div>
         </div>
+
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form method="" action="">
+
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit" class="submitBtn" value="Envoyer">
+
+        </form>
+
+        <ul>
+            <li>
+                <a href="
+                https://github.com/CYRILAGUIRRE" target="blank">
+                    <i class="fa-brands fa-github">
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a href="http://linkedin.com/in/cyril-aguirre/" target="blank">
+                    <i class="fa-brands fa-linkedin">
+                    </i>
+                </a>
+            </li>
+        </ul>
+        <p>Cyril Aguirre™ - 2022</p>
 
     </section>
 

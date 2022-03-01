@@ -33,63 +33,187 @@
         </ul>
     </nav>
     <section class="containerIdentity">
+        <div class="photo-container">
+            <img src="./assets/img/moi.jpg" alt="ma photo">
+        </div>
         <div class="presentation">
             <H1>Cyril Aguirre</H1>
             <h2>Développeur</h2>
             <h2>Front-end</h2>
         </div>
-        <div class="photo-container">
-            <img src="./assets/img/moi.jpg" alt="ma photo">
-
-        </div>
     </section>
     <section id="skills">
-        <div class="formation">
-            <h2>Diplômes & Formations</h2>
-            <h3>Développeur Web - <a href="https://campusdulac.com" target="blank">Campus du Lac</a></h3>
-            <p>Titre développeur Web et Web Mobile</p>
-            <p>Diplôme de niveau 5</p>
+        <h2>Diplômes & Formations</h2>
+        <div class="skillsContainer">
 
-        </div>
-        <div class="techno">
-            <h4>HTML</h4>
-            <div class="experience">
-                <p class="progress">On progress</p>
-                <p class="duration">Since 11/2021</p>
-            </div>
-            <h4>CSS</h4>
-            <div class="experience">
-                <p class="progress">On progress</p>
-                <p class="duration">
-                    Since 12/2021
-                </p>
-            </div>
-            <h4>SASS</h4>
-            <div class="experience">
-                <p class="progress">On progress</p>
-                <p class="duration">
-                    Since 12/2021
-                </p>
-            </div>
-            <h4>JAVASCRIPT</h4>
-            <div class="experience">
-                <p class="progress">On progress</p>
-                <p class="duration">
-                    Since 01/2022
-                </p>
-            </div>
-            <h4>BOOTSTRAP</h4>
-            <div class="experience">
-                <p class="progress">On progress</p>
-                <p class="duration">
-                    Since 01/2022
-                </p>
-            </div>
+            <div class="formation">
+                <h3>Développeur Web - <a href="https://campusdulac.com" target="blank">Campus du Lac</a></h3>
+                <p>Titre développeur Web et Web Mobile</p>
+                <p>Diplôme de niveau 5</p>
 
+            </div>
+            <div class="techno">
+                <h4>HTML</h4>
+                <div class="experience">
+                    <p class="progress">On progress
+                    </p>
+                    <p class="duration">Since 11/2021</p>
+                </div>
+                <h4>CSS</h4>
+                <div class="experience">
+                    <p class="progress">On progress</p>
+                    <p class="duration">
+                        Since 12/2021
+                    </p>
+                </div>
+                <h4>SASS</h4>
+                <div class="experience">
+                    <p class="progress">On progress</p>
+                    <p class="duration">
+                        Since 12/2021
+                    </p>
+                </div>
+                <h4>JAVASCRIPT</h4>
+                <div class="experience">
+                    <p class="progress">On progress</p>
+                    <p class="duration">
+                        Since 01/2022
+                    </p>
+                </div>
+                <h4>BOOTSTRAP</h4>
+                <div class="experience">
+                    <p class="progress">On progress</p>
+                    <p class="duration">
+                        Since 01/2022
+                    </p>
+                </div>
+
+            </div>
         </div>
     </section>
     <section id="portfolio">
         <h2>Portfolio</h2>
+        <div class="carousel">
+            <div class="progress-bar progress-bar--primary hide-on-desktop">
+                <div class="progress-bar__fill"></div>
+            </div>
+
+            <header class="main-post-wrapper">
+
+                <div class="slides">
+                    <article class="main-post main-post--active">
+                        <div class="main-post__image">
+                            <img src="./assets/img/gaming_campus.png" />
+                        </div>
+                        <div class="main-post__content">
+
+                            <h1 class="main-post__title">
+                                Ma première intégration sur le site Gaming Campus , en début de formation.
+                            </h1>
+                            <button class="linkSrc">
+                                <a href="https://cyrilaguirre.github.io/gaming-campus/" target="blank">
+                                    Voir le résultat
+                                </a>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="main-post main-post--not-active">
+                        <div class="main-post__image">
+                            <img src="./assets/img/run.png" />
+                        </div>
+                        <div class="main-post__content">
+
+                            <h1 class="main-post__title">
+                                Intégration sur le thème "Run", en début de formation.
+                            </h1>
+                            <button>
+                                <a href="https://cyrilaguirre.github.io/Run/" target="blank">
+                                    Voir le résultat
+
+                                </a>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="main-post main-post--not-active">
+                        <div class="main-post__image">
+                            <img src="./assets/img/montagne.png" />
+                        </div>
+                        <div class="main-post__content">
+
+                            <h1 class="main-post__title">
+                                Intégration sur le thème de la "Montagne" après un mois de formation.
+                            </h1>
+                            <button>
+                                <a href="https://cyrilaguirre.github.io/La-Montagne/" target="blank">
+                                    Voir le résultat
+                                </a>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="main-post main-post--not-active">
+                        <div class="main-post__image">
+                            <img src="./assets/img/resto.png" />
+                        </div>
+                        <div class="main-post__content">
+
+                            <h1 class="main-post__title">
+                                Intégration sur le thème "Resto" après un mois de formation.
+                            </h1>
+                            <button>
+                                <a href="https://cyrilaguirre.github.io/Resto/" target="blank">
+                                    Voir le résultat
+                                </a>
+                            </button>
+
+                        </div>
+                    </article>
+                </div>
+            </header>
+
+            <div class="posts-wrapper hide-on-mobile">
+                <article class="post post--active">
+                    <div class="progress-bar">
+                        <div class="progress-bar__fill"></div>
+                    </div>
+                    <header class="post__header">
+                        <p class="post__published">16 August 2019</p>
+                    </header>
+                    <h2 class="post__title">Ma première intégration sur le site Gaming Campus , en début de formation.
+                    </h2>
+                </article>
+                <article class="post">
+                    <div class="progress-bar">
+                        <div class="progress-bar__fill"></div>
+                    </div>
+                    <header class="post__header">
+                        <p class="post__published">12 August 2019</p>
+                    </header>
+                    <h2 class="post__title">
+                        Intégration sur le thème "Run", en début de formation.
+                    </h2>
+                </article>
+                <article class="post">
+                    <div class="progress-bar">
+                        <div class="progress-bar__fill"></div>
+                    </div>
+                    <header class="post__header">
+                        <p class="post__published">08 August 2019</p>
+                    </header>
+                    <h2 class="post__title">Intégration sur le thème de la "Montagne" après un mois de formation.
+                    </h2>
+                </article>
+                <article class="post">
+                    <div class="progress-bar">
+                        <div class="progress-bar__fill"></div>
+                    </div>
+                    <header class="post__header">
+                        <p class="post__published">08 August 2019</p>
+                    </header>
+                    <h2 class="post__title">Intégration sur le thème "Resto" après un mois de formation.
+                    </h2>
+                </article>
+            </div>
+        </div>
         <div class="containerCards">
             <div class="card">
                 <div class="cardImg"><img src="./assets/img/gaming_campus.png"
